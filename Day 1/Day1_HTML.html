@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* Header styles */
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .logo h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .navigation-bar ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation-bar li {
+            margin-left: 20px;
+        }
+
+        .navigation-bar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding: 20px;
+        }
+
+        .intro-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content-box {
+            flex: 1;
+            text-align: center;
+        }
+
+        .content-box h2 {
+            margin-top: 0;
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .content-box p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .sidebar-box {
+            width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .accessibility {
+            margin-bottom: 20px;
+        }
+
+        .accessibility p {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        .accessibility input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+
+        .div-np {
+            width: 787.41px;
+            height: 75px;
+            background-color: lightblue; 
+            border: 1px solid black; 
+            margin: 5px 0;
+        }
+
+        /* Footer styles */
+        .footer-container {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo">
+            <h1>Medium</h1>
+        </div>
+        <nav class="navigation-bar">
+            <ul>
+                <li><a href="#">Our story</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Write</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#" class="button">Get started</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="intro-section">
+            <div class="content-box">
+                <h2>man stories & ideas</h2>
+                <p>A place to read, write, and deepen your understanding</p>
+                <button class="button">Start reading</button>
+            </div>
+            <div class="sidebar-box">
+                <div class="accessibility">
+                    <div class="div-np"></div>
+                    <p>ACCESSIBILITY</p>
+                    <input type="text" placeholder="Name">
+                    <p>Role</p>
+                    <input type="text" placeholder="generic">
+                    <p>Keyboard-focusable</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-container">
+        <nav class="navigation-bar">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
