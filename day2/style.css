@@ -16,27 +16,75 @@ body {
         margin: 4px;
         text-align: center;
     }
-    nav ul li{
+    nav ul li {
         list-style-type: none ;
         color: whitesmoke;
         display: inline-block;
         padding: 14px 12px;
     
     }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
     h2{
         color:#1a41d6
     }
-    .card img{
-        max-width: 300px;
-        margin-left: 420px;
-    
-    }
     section{
+        box-shadow: 0 0 5px rgba(red, green, blue, alpha);
         background-color: white ;
         padding: 4px;
         border-radius: 4px;
         margin: 10px;
     }
+
     ul li{
         padding: 0;
     }
+
+    footer {
+        background-color: black;
+        color:white;
+        padding: 10px;
+        text-align: center;
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .card img{
+        max-width: 300px;
+        margin-left: 420px;
+    }
+    .card-item{
+        background-color: azure;
+        box-shadow: 0 0 5px rgba(red, green, blue, alpha);
+        border-radius: 4px;
+        padding: 15px;
+        text-align: center;
+    }
+    #curriculum ul{
+        display: flex;
+        gap: 10px;
+        padding: 4px;
+    
+      }
+      #curriculum li{
+        list-style: none;
+        text-align: center;
+        background-color:#f4f4f4 ;
+        padding: 6px;
+        border-radius: 5px;
+      }
+      #curriculum h2{
+        font-size: 1em;
+      }
+      #curriculum p{
+        font-size: .98em;
+      }
+      nav ul li a:hover{
+        background-color: rgb(84, 88, 88);
+        padding: 15px;
+      }
