@@ -16,27 +16,40 @@ body {
         margin: 4px;
         text-align: center;
     }
-    nav ul li{
+    nav ul li {
         list-style-type: none ;
         color: whitesmoke;
         display: inline-block;
         padding: 14px 12px;
     
     }
+
+    nav ul li a {
+        text-decoration: none;
+        background-color: white;
+    }
     h2{
         color:#1a41d6
     }
-    .card img{
-        max-width: 300px;
-        margin-left: 420px;
-    
-    }
     section{
+        box-shadow: 0 0 5px rgba(red, green, blue, alpha);
         background-color: white ;
         padding: 4px;
         border-radius: 4px;
         margin: 10px;
     }
+
     ul li{
         padding: 0;
+    }
+
+    footer {
+        background-color: black;
+        color:white;
+        padding: 10px;
+        text-align: center;
+    }
+    .card img{
+        max-width: 300px;
+        margin-left: 420px;
     }
