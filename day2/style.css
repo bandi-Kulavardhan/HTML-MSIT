@@ -23,6 +23,7 @@ body {
         padding: 14px 12px;
     
     }
+    
 
     nav ul li a {
         color: white;
@@ -173,3 +174,32 @@ body {
         h3{
             color: #0040df;
         }
+
+        /* General styles for social media icons */
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  footer .Social-media {
+    margin-top: 10px;
+  }
+  
+  footer .Social-media a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  footer .Social-media img {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease;
+  }
+  
+  footer .Social-media a:hover img {
+    transform: scale(1.2);
+  }
